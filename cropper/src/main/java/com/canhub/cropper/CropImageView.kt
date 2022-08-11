@@ -1836,10 +1836,7 @@ class CropImageView @JvmOverloads constructor(context: Context, attrs: Attribute
                         R.styleable.CropImageView_cropTouchRadius,
                         options.touchRadius
                     )
-                    options.initialCropWindowPaddingRatio = ta.getFloat(
-                        R.styleable.CropImageView_cropInitialCropWindowPaddingRatio,
-                        options.initialCropWindowPaddingRatio
-                    )
+                    options.initialCropWindowPaddingRatio = 0
                     options.circleCornerFillColorHexValue = ta.getInteger(
                         R.styleable.CropImageView_cropCornerCircleFillColor, options.circleCornerFillColorHexValue
                     )
