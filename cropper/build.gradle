@@ -16,7 +16,7 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.CanHub'
+                groupId = 'com.github.vmia159'
                 artifactId = 'Android-Image-Cropper'
                 version = rootProject.libVersion
             }
